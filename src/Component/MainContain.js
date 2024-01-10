@@ -3,8 +3,8 @@ import main from '../assets/rectangle-14-bg.png';
 
 const MainContain = () => {
   return (
-    <div className="relative">
-      <div className="flex items-center justify-center">
+    <div className="">
+      <div className="md:mx-28 lg:mx-28 mx-6">
         <div className="relative mt-6">
           <img
             className="w-full h-screen rounded-xl"
@@ -33,6 +33,7 @@ const MainContain = () => {
             </p>
           </div>
         </div>
+          <img src='https://images.pexels.com/photos/2552127/pexels-photo-2552127.jpeg?auto=compress&cs=tinysrgb&w=600' className='rounded-xl mt-10'/>
       </div>
     </div>
   );
