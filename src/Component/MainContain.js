@@ -5,14 +5,14 @@ const MainContain = () => {
   return (
     <div className="">
       <div className="md:mx-28 lg:mx-28 mx-6">
-        <div className="relative mt-6">
+        <div className="relative mt-6 ">
           <img
             className="w-full h-screen rounded-xl"
             src={main}
             alt=""
           />
-          <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-            <p className="text-3xl md:text-5xl lg:text-6xl font-normal text-white mb-8 block">
+          <div className="absolute  top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+            <p className="text-3xl 	 md:text-5xl lg:text-6xl font-normal text-white mb-11 block">
               Happy New Year
             </p>
             <p className="text-5xl md:text-7xl lg:text-7xl font-extrabold text-white max-w-3xl ">

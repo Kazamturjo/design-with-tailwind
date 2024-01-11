@@ -4,7 +4,7 @@ import main61 from '../assets/ellipse-1-bg.png';
 
 const Hero04 = () => {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 m-6 md:m-12 p-6 md:p-12'>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 m-6 md:m-12 p-6 md:p-14'>
       <div className='md:col-span-2 lg:col-span-1'>
         <h3 className='text-red-500 font-bold text-xl'>NEW BEST OFFER</h3>
         <h1 className='text-5xl py-5 font-bold'>Coming Soon</h1>

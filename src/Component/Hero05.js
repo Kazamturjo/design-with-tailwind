@@ -2,7 +2,7 @@ import React from 'react';
 import img1 from '../assets/group-79.png'
 const Hero05 = () => {
   return (
-    <div className="m-4 text-center">
+    <div className="m-4 text-cente p-6">
       <div className="py-6">
         <p className="text-xl">WHAT IS FUNCTIONAL</p>
         <h1 className="text-5xl py-5">
@@ -15,8 +15,8 @@ const Hero05 = () => {
           consectetur.
         </p>
       </div>
-      <div className='rounded-xl m-4'>
-        <img src={img1}/>
+      <div className='rounded-xl  w-5/6	 m-auto'>
+        <img src={img1} className='rounded-xl'/>
       </div>
     </div>
   );
