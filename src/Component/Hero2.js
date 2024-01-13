@@ -3,24 +3,44 @@ import main from '../assets/group-70.png';
 
 const MainContain = () => {
   return (
-    <section class="bg-white bg-gray-400 m-11 rounded-xl">
-    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mb-5ss box-border rounded-md overflow-hidden">
-        <div class="mr-auto place-self-center lg:col-span-7 lg:rounded-lg lg:overflow-hidden lg:mt-0 lg:mt-8">
-            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Welcome to midnight party</h1>
-            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod.</p>
-            <a href="#" class="inline-flex items-center justify-center px-6 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
-                Get started
-                <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-            </a>
-            <a href="#" class="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-                Speak to Sales
-            </a> 
+    <main className=' w-full'>
+        <section className="bg-gradient-to-r from-black to-red-100 md:mx-28 lg:mx-28 mx-6 rounded-xl ">
+      <div
+    //   style={{ width: "1600px", height: "700px" }}
+        className="grid w-full px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 box-border rounded-md overflow-hidden"
+      >
+        <div className="lg:col-span-7 lg:rounded-lg lg:overflow-hidden ">
+          <h1 className="max-w-2xl mb-4 text-2xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none dark:text-white m-4">
+            Welcome to midnight party
+          </h1>
+          {/* <p className="max-w-2xl mb-6 py-6 font-light text-white md:mb-8 md:text-lg lg:text-xl">
+            Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod.
+          </p> */}
+<h5 className='text-white  py-6 m-4 md:whitespace-normal md:mb-8 lg:text-lg xl:text-xl '>
+        Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod.   
+        </h5>
+          
+          <a
+            href="#"
+            className="inline-flex items-center justify-center px-6 py-3 mr-3 text-xl font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+          >
+            Join now
+            <svg className="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns=""></svg>
+          </a>
         </div>
-        <div class="lg:col-span-5 lg:flex lg:justify-end">
-            <img src={main} alt="mockup" class="w-full h-auto lg:max-h-full lg:max-w-full lg:rounded-lg lg:overflow-hidden" />
-        </div>                
-    </div>
-</section>
+        <div className="lg:col-span-5 lg:flex lg:justify-center">
+          <img
+                      
+
+            src={main}
+            alt="mockup"
+            className="w-[319px] h-auto  sm:max-w-[50%] max-h-[250px] lg:max-h-[464px] lg:max-w-[319px] lg:rounded-lg lg:overflow-hidden"
+             />
+          
+        </div>
+      </div>
+    </section>
+    </main>
   );
 };
 

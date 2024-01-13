@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      lineHeight: {
+        'extra-loose': '2.5',
+        '12': '3rem',
+      }
+    },
   },
   plugins: [],
 }
