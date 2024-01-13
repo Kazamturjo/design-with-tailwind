@@ -15,8 +15,8 @@ const Hero05 = () => {
           consectetur.
         </p>
       </div>
-      <div className='rounded-xl  	 m-auto'>
-        <img src={img1} className='rounded-xl'/>
+      <div className='rounded-xl  m-auto'>
+        <img src={img1} className='rounded-xl h-[40%]'/>
       </div>
     </div>
   );

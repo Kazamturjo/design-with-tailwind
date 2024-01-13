@@ -4,7 +4,7 @@ import main from '../assets/rectangle-14-bg.png';
 const MainContain = () => {
   return (
     <div className="">
-      <div className="md:mx-28 lg:mx-28 mx-6">
+      <div className="md:mx-28 sm:mx-32 mx-6">
         <div className="relative mt-6 flex justify-center">
           <img
             className="rounded-xl "
