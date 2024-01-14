@@ -13,8 +13,8 @@ const GiftsComponent = () => {
         <div className="">
           <p className="text-2xl text-red-500 font-bold mt-16">THE BEST GIFTS</p>
           <p className="font-bold text-6xl  mt-4 py-8">Our Awesome Portfolio</p>
-          <p className="font-serif text-3xl  py-11 font-light">
-            Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod.
+          <p className=" text-xl  py-11 font-light">
+            Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada.<br/> Ipsum sed sodales risus ut pellentesque vel euismod.
           </p>
         </div>
        <div className=' md:px-16 lg:px-16 rounded-xl'>

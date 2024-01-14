@@ -8,6 +8,9 @@ module.exports = {
       lineHeight: {
         'extra-loose': '2.5',
         '12': '3rem',
+      },
+      opacity: {
+        '67': '.67',
       }
     },
   },

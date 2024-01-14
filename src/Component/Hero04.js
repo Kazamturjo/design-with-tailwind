@@ -8,9 +8,9 @@ const Hero04 = () => {
       <div className='md:col-span-2 lg:col-span-1'>
         <h3 className='text-red-500 font-bold text-xl'>NEW BEST OFFER</h3>
         <h1 className='text-5xl py-5 font-bold'>Coming Soon</h1>
-        <p className='text-sm md:text-base'>
-          Dolor sit amet consectetur. Consequat eget consectetur maecenas sed
-          molestie malesuada. Ipsum sed sodales risus ut pellentesque vel
+        <p className='text-sm md:text-base font-light'>
+          Dolor sit amet consectetur. Consequat <br/> eget consectetur maecenas sed
+          molestie <br/> malesuada. Ipsum sed sodales risus ut <br/> pellentesque vel
           euismod.
         </p>
       </div>
@@ -21,9 +21,9 @@ const Hero04 = () => {
           alt="Ellipse Background"
         />
       </div>
-      <div className=''>
-        <h1 className='text-4xl font-bold text-red-500 '>2024</h1>
-        <p className='text-sm md:text-base'>Dolor sit amet consectetur. Consequat eget consectetur maecenas sed.</p>
+      <div className='ml-11'>
+        <h1 className='text-4xl font-bold text-red-600 '>2024</h1>
+        <p className='text-sm md:text-base font-light'>Dolor sit amet consectetur.<br/> Consequat eget consectetur <br/>maecenas sed.</p>
         <img src={main} className='w-full md:w-48 mt-4'/>
       </div>
     </div>

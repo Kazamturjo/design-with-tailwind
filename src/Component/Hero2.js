@@ -15,18 +15,18 @@ const MainContain = () => {
         <div
           className="grid w-full px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 box-border rounded-md overflow-hidden relative"
         >
-          <div className="lg:col-span-7 lg:rounded-lg lg:overflow-hidden">
-            <h1 className="max-w-2xl mb-4 text-2xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none dark:text-white m-4">
+          <div className="lg:col-span-7 lg:rounded-lg lg:overflow-hidden m-11 p-6">
+            <h1 className="max-w-2xl mb-4 text-2xl md:text-5xl lg:text-6xl font-extrabold leading-none dark:text-white m-4 tracking-widest">
               Welcome to midnight party
             </h1>
             <h5 className="text-white py-6 m-4 md:whitespace-normal md:mb-8 lg:text-lg xl:text-xl break-words">
               Dolor sit amet consectetur. Consequat eget consectetur maecenas
-              sed molestie malesuada. Ipsum sed sodales risus ut pellentesque
+              sed molestie malesuada.<br/> Ipsum sed sodales risus ut pellentesque
               vel euismod.
             </h5>
             <a
               href="#"
-              className="inline-flex items-center justify-center px-6 py-3 mr-3 text-xl font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+              className="inline-flex items-center justify-center px-7 py-3 mr-3 text-xl font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 "
             >
               Join now
               <svg
