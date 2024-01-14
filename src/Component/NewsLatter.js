@@ -25,7 +25,7 @@ const NewsletterSignup = () => {
           </div>
           <h2 className="text-3xl font-semibold mb-6 text-gray-800">Subscribe to Our Newsletter</h2>
           <p className="text-gray-600 mb-6">
-          Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. Ipsum sed sodales risus ut pellentesque vel euismod.           </p>
+          Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada.<br/> Ipsum sed sodales risus ut pellentesque vel euismod.           </p>
           <form onSubmit={handleSubmit} className="flex  w-2/3 flex-col justify-center sm:flex-row items-center ">
             <input
               type="email"

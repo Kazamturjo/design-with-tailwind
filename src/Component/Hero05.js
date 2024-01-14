@@ -5,7 +5,7 @@ const Hero05 = () => {
     <div className=" text-cente  md:mx-28 lg:mx-28 mx-6">
       <div className="py-6">
         <p className="text-xl text-center">WHAT IS FUNCTIONAL</p>
-        <h1 className="text-5xl py-5  text-center">
+        <h1 className="text-5xl py-5  text-center font-bold">
           <span className=" text-red-500 ">Holidays</span>Sale 50%
         </h1>
         <p className=" font-serif text-xl py-3 m-3  text-center">

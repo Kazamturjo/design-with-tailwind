@@ -6,6 +6,7 @@ import Footer from './Component/Footer';
 import GiftsComponent from './Component/GiftComponent';
 import Hero05 from './Component/Hero05';
 import NewsletterSignup from './Component/NewsLatter';
+import MainCss from './Component/MainCss';
 function App() {
   return (
     <div className="">
@@ -13,7 +14,8 @@ function App() {
       <Hero2/>
       <Hero03/>
       <Hero04/>
-      <Hero05/>
+      {/* <Hero05/> */}
+      <MainCss/>
       <GiftsComponent/>
       <NewsletterSignup/>
       <Footer/>
