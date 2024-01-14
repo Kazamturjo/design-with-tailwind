@@ -10,7 +10,7 @@ const MainCss = () => {
       <div>
         <p className="text-xl text-center">WHAT IS FUNCTIONAL</p>
         <h1 className="text-5xl py-5 text-center font-bold font-serif">
-          <span className="text-red-500">Holidays</span>Sale 50%
+          <span className="text-red-500">Holidays</span> Sale 50%
         </h1>
         <p className="font-serif text-xl py-3 m-3 text-center">
           Dolor sit amet consectetur. Consequat eget consectetur maecenas sed{' '}

@@ -5,8 +5,8 @@ const Hero05 = () => {
     <div className=" text-cente  md:mx-28 lg:mx-28 mx-6">
       <div className="py-6">
         <p className="text-xl text-center">WHAT IS FUNCTIONAL</p>
-        <h1 className="text-5xl py-5  text-center font-bold">
-          <span className=" text-red-500 ">Holidays</span>Sale 50%
+        <h1 className="text-5xl py-5  text-center font-bold mr-2">
+          <span className=" text-red-500">Holidays </span><span className=''>Sale 50%</span>
         </h1>
         <p className=" font-serif text-xl py-3 m-3  text-center">
           Dolor sit amet consectetur. Consequat eget consectetur maecenas sed
@@ -16,7 +16,7 @@ const Hero05 = () => {
         </p>
       </div>
       <div className='rounded-xl  m-auto'>
-        <img src={img1} className='rounded-xl h-[40%]'/>
+        <img src={img1} alt='' className='rounded-xl h-[40%]'/>
       </div>
     </div>
   );

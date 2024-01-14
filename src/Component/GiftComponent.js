@@ -18,7 +18,7 @@ const GiftsComponent = () => {
           </p>
         </div>
        <div className=' md:px-16 lg:px-16 rounded-xl'>
-       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-x-16 gap-y-16 w-[100%] 	">
+       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-x-16 gap-y-16 w-[100%]  ">
           {[
             { src: img10, alt: 'Image 1' },
             { src: img4, alt: 'Image 2' },
@@ -27,7 +27,7 @@ const GiftsComponent = () => {
             { src: img7, alt: 'Image 5' },
             { src: img8, alt: 'Image 6' },
           ].map((image, index) => (
-            <div key={index} className="w-full h-96	 ">
+            <div key={index} className="w-full h-96 group overflow-hidden rounded-xl transition-transform transform hover:scale-105">
               <div className="bg-white shadow-md rounded-md h-full">
                 <img className="w-full h-full object-cover rounded-xl" src={image.src} alt={image.alt} />
               </div>

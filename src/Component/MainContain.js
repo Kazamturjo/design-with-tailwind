@@ -6,7 +6,10 @@ const MainContain = () => {
   return (
     <div className="md:mx-28 lg:mx-28 m-11 relative">
       <div className="relative mt-6  ">
-        <div className='relative bg-black   bg-opacity-90  '>
+
+        <div className='relative   '>
+        <div className="absolute inset-0 bg-black opacity-50 rounded-xl"></div>
+
           <img
             className="rounded-xl"
             style={{ width: "100%" }}
